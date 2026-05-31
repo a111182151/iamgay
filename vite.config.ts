@@ -4,7 +4,6 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig({
-  return {
     base： '/iamgay/',
     plugins: [react(), tailwindcss()],
     resolve: {
