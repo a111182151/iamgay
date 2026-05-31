@@ -1,5 +1,5 @@
-import bikeTourImg from './assets/images/motorcycle_tour_1779725254364.png';
-import profile3DImg from './assets/images/profile_3d_render_1779725236653.png';
+import bikeTourImg from '../assets/images/motorcycle_tour_1779725254364.png';
+import profile3DImg from '../assets/images/profile_3d_render_1779725236653.png';
 export interface Slide {
   title: string;
   subtitle: string;
