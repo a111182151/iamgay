@@ -1,3 +1,5 @@
+import bikeTourImg from './assets/images/motorcycle_tour_177972524364.png';
+import profile3DImg from './assets/images/profile_3d_render_1779725236653.png';
 export interface Slide {
   title: string;
   subtitle: string;
@@ -53,7 +55,7 @@ export interface ProfileData {
   }[];
   autobiography: string;
   tripoLink: string;
-  avatar3D: string;
+  avatar3D: profile3DImg,
   expertises: string[];
 }
 
@@ -97,13 +99,13 @@ export const profileData: ProfileData = {
         title: "2026 重機花東慢活之旅",
         subtitle: "蘇花、縱谷與太平洋的湛藍直航",
         description: "開啟為期四天的重機壯遊！沿著臺灣最美麗的一線海岸，聽風、聽浪，享受深度騎乘的奢華自由，與大自然的心靈對話。",
-        image: "https://a111182151.github.io/iamgay/src/assets/images/motorcycle_tour_1779725254364.png",
+        image: bikeTourImg,
       },
       {
         title: "Day 1: 蘇花巡禮與花蓮昭和風情",
         subtitle: "探訪林蔭小徑與日式氣息",
         description: "上午：蜿蜒的公路上伴隨著深邃的太平洋而行，享受風與速度的奢華對比。下午：尋幽別徑，在舒緩與放慢中，探尋斑駁靜謐的日式昭和老建築，感受時光定格的溫馨風情。",
-        image: "https://a111182151.github.io/iamgay/src/assets/images/motorcycle_tour_1779725254364.png",
+        image: bikeTourImg,
       },
       {
         title: "Day 2: 縱谷金黃稻香與深山幽谷",
