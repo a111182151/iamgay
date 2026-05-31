@@ -77,8 +77,7 @@ export const profileData: ProfileData = {
   },
   autobiography: "這裡放你的自傳內容...",
   tripoLink: "這裡放你的旅行連結...",
-  expertises: ["航海", "重機", "網頁前端"]
-};
+  expertises: ["航海", "重機", "網頁前端"],
   warningIntro: "少在那邊跟我旋轉、講些五四三的廢話！做人留一線，日後好相見，但如果你把我的尊重當作你不要臉的資本，那我就會讓你知道什麼叫做真正的殘忍。出來混，遲早要還的，今天你怎麼弄我，明天我就加倍奉還。不要考驗我的耐心，我瘋起來的時候，連我自己都會感到害怕！",
   workExperience: [
     {
