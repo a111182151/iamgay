@@ -58,11 +58,12 @@ export interface ProfileData {
   avatar3D: string;
   expertises: string[];
 }
-name: "陳宥為",
+export const profileData: ProfileData = {
+  name: "陳宥為",
   title: "航海科專業 | 重機旅人 | 多語才俊",
   avatar: "https://a111182151.github.io/iamgay/assets/images/profile_3d_render_1779725236653.png",
   avatar3D: profile3DImg,
-  motto: "愛你真的沒辦法 你家沒有阿爾法 ｜ 你懂海 海就會幫你，你懂懂猜 神明就會幫你",
+  motto: "愛你真的沒辦法 你家沒有阿爾法 | 你懂海 海就會幫你，你懂懂猜 神明就會幫你",
   email: "a111182151@nkust.edu.tw",
   constellation: "射手座",
   bloodType: "A型",
@@ -70,11 +71,14 @@ name: "陳宥為",
   age: 19,
   socials: {
     linkedin: "https://linkedin.com",
-    instagram: "https://instagram.com",
-    facebook: "https://facebook.com",
     youtube: "https://youtube.com",
     github: "https://github.com",
+    instagram: "https://instagram.com"
   },
+  autobiography: "這裡放你的自傳內容...",
+  tripoLink: "這裡放你的旅行連結...",
+  expertises: ["航海", "重機", "網頁前端"]
+};
   warningIntro: "少在那邊跟我旋轉、講些五四三的廢話！做人留一線，日後好相見，但如果你把我的尊重當作你不要臉的資本，那我就會讓你知道什麼叫做真正的殘忍。出來混，遲早要還的，今天你怎麼弄我，明天我就加倍奉還。不要考驗我的耐心，我瘋起來的時候，連我自己都會感到害怕！",
   workExperience: [
     {
