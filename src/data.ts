@@ -1,5 +1,5 @@
 import bikeTourImg from '../assets/images/motorcycle_tour_1779725254364.png';
-import profile3DImg from '@/assets/images/profile_3d_render_1779725236653.png';
+import profile3DImg from '../assets/images/profile_3d_render_1779725236653.png';
 export interface Slide {
   title: string;
   subtitle: string;
@@ -60,7 +60,7 @@ export interface ProfileData {
 }
 name: "陳宥為",
   title: "航海科專業 | 重機旅人 | 多語才俊",
-  avatar: "https://a111182151.github.io/iamgay/src/assets/images/profile_3d_render_1779725236653.png",
+  avatar: "https://a111182151.github.io/iamgay/assets/images/profile_3d_render_1779725236653.png",
   avatar3D: profile3DImg,
   motto: "愛你真的沒辦法 你家沒有阿爾法 ｜ 你懂海 海就會幫你，你懂懂猜 神明就會幫你",
   email: "a111182151@nkust.edu.tw",
