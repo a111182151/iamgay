@@ -58,10 +58,9 @@ export interface ProfileData {
   avatar3D: string;
   expertises: string[];
 }
-
-export const profileData: ProfileData = {
-  name: "陳宥為",
-  avatar: "https://cdn.phototourl.com/free/2026-05-25-67542554-0598-4a01-a435-98b1ae5f4f55.jpg",
+name: "陳宥為",
+  title: "航海科專業 | 重機旅人 | 多語才俊",
+  avatar: "https://a111182151.github.io/iamgay/src/assets/images/profile_3d_render_1779725236653.png",
   avatar3D: profile3DImg,
   motto: "愛你真的沒辦法 你家沒有阿爾法 ｜ 你懂海 海就會幫你，你懂懂猜 神明就會幫你",
   email: "a111182151@nkust.edu.tw",
